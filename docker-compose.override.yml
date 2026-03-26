@@ -1,0 +1,11 @@
+services:
+  postfix-mailcow:
+    ports:
+      - "25:25:25"
+      - "587:587"
+      - "465:465"
+
+  dovecot-mailcow:
+    ports:
+      - "993:993"
+      - "995:995"
